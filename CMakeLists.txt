@@ -5,6 +5,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
         main.cpp main.cpp
-        i01_type_ded.cpp)
+        i01_type_ded.cpp Item.h)
 
 add_executable(effective-cpp ${SOURCE_FILES})
