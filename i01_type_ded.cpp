@@ -9,6 +9,8 @@
 #include "Item.h"
 
 // The deduced type includes the array size!!!
+// Notice the reference type T (&)[N], which prevents
+// the array from decaying into a pointer.
 template<typename T, std::size_t N>                 // see info
 constexpr std::size_t arraySize(T (&)[N]) noexcept  // below on
 {                                                   // constexpr
