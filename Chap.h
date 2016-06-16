@@ -10,10 +10,14 @@ public:
     virtual int operator()() = 0;
 };
 
-class I01 : public Chap {
+class Ch1 : public Chap {
 public:
     int operator()() override final;
 };
 
+class Ch2 : public Chap {
+public:
+    int operator()() override final;
+};
 
 #endif //EFFECTIVE_CPP_ITEM_H

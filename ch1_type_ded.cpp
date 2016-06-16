@@ -53,8 +53,8 @@ std::vector<Widget> createVec() {
     return v;
 }
 
-int I01::operator()() {
-    std::cout << "--- IO1 ---" << std::endl << std::endl;
+int Ch1::operator()() {
+    std::cout << "--- Ch1 ---" << std::endl << std::endl;
 
     std::cout << "Type deduction for arrays" << std::endl << std::endl;
 
@@ -92,6 +92,8 @@ int I01::operator()() {
     if (!vw.empty()) {
         f(&vw[0]);                         // call f --> type deduction
     }
+
+    std::cout << std::endl << std::endl;
 
     return !(mappedVals.size() == arraySize(keyVals));
 }

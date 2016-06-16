@@ -4,12 +4,14 @@
 
 #include <iostream>
 #include <vector>
+
 #include "Chap.h"
 
 int sandbox() {
     std::vector<Chap*> items;
 
-    items.push_back(new I01());
+    items.push_back(new Ch1());
+    items.push_back(new Ch2());
 
     int ret = 0;
     for (auto i: items)
@@ -17,7 +19,6 @@ int sandbox() {
 
     return ret;
 }
-
 int main() {
 
     return sandbox();

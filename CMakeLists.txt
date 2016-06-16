@@ -10,6 +10,7 @@ endif ()
 
 set(SOURCE_FILES
         main.cpp main.cpp
-        ch01_type_ded.cpp Chap.h)
+        ch1_type_ded.cpp Chap.h
+        ch2_auto.cpp)
 
 add_executable(effective-cpp ${SOURCE_FILES})
