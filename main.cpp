@@ -14,6 +14,8 @@ int sandbox() {
     int ret = 0;
     for (auto i: items)
         ret += (*i)();
+
+    return ret;
 }
 
 int main() {
