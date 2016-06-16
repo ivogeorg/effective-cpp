@@ -14,7 +14,7 @@ int sandbox() {
     items.push_back(new Ch2());
 
     int ret = 0;
-    for (auto i: items)
+    for (const auto &i: items)
         ret += (*i)();
 
     return ret;
