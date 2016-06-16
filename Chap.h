@@ -20,4 +20,9 @@ public:
     int operator()() override final;
 };
 
+class Ch3 : public Chap {
+public:
+    int operator()() override final;
+};
+
 #endif //EFFECTIVE_CPP_ITEM_H
